@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical documentation page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <header id="top-head">
+        <p>Top javascript frameworks and library</p>
+          </header>
+          <div id="text">
+      <main id="main-doc">
+        <section class="main-section" id="react">
+          <header>
+            <h1>React</h1>
+            </header>
+            <main>
+              <p>React is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+              <p>It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.</p>
+              </main>
+              <ol>
+                <li>current version React 18</li>
+                </ol>
+              <div class="code">
+              <code>const name = 'Josh Perez';
+const element = <p>use element here with tags Hello, {name} element here with tags</p>;</code>
+ </div>
+        </section>
+        <section class="main-section" id="angular">
+          <header>
+            <h1>Angular</h1>
+            </header>
+            <main>
+              <p>Angular is a TypeScript-based free and open-source single-page web application framework run on Node.js.</p>
+              <p>It is developed by Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.</p>
+              </main>
+               <ol>
+                <li>current version 18.0.0 </li>
+                </ol>
+              <div class="code">
+                <code>@Component({
+  selector: 'app-component-overview',
+  templateUrl: './component-overview.component.html',
+  styleUrls: ['./component-overview.component.css']
+})</code>
+                </div>
+              </section>
+        <section class="main-section" id="vue"> 
+          <header>
+            <h1>Vue</h1>
+            </header>
+          <main>
+              <p>Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.</p>
+              <p>It was created by Evan You, and is maintained by him and the rest of the active core team members.</p>
+              </main>
+               <ol>
+                <li>current version 3.4.27 </li>
+                </ol>
+              <div class="code">
+                <code>import { createApp } from 'vue'
+import App from './App.vue'
+
+const app = createApp(App)</code>
+                </div>
+              </section>
+        <section class="main-section" id="jquery"> 
+          <header>
+            <h1>JQuery</h1>
+          </header>
+          <main>
+              <p>jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animations, and Ajax.</p>
+             <p>It is free, open-source software using the permissive MIT License. As of August 2022, jQuery is used by 77% of the 10 million most popular websites.</p>
+              </main>
+               <ol>
+                <li>current version 3.7.1</li>
+                </ol>
+              <div class="code">
+                <code>var hiddenBox = $( "#banner-message" );
+$( "#button-container button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});</code>
+                </div>
+              </section>
+        <section class="main-section" id="express">
+           <header>
+             <h1>Express</h1>
+           </header>
+           <main>
+              <p>Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. </p>
+              <p>It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.</p>
+              </main>
+               <ol>
+                <li>current version 4.19.2</li>
+                </ol>
+              <div class="code">
+                <code>const express = require("express");
+                      const app = express();
+                      app.listen(3000,()=>{
+                        console.log("server running");
+                      })
+                </code>
+                </div>
+              </section>
+              </div>
+    <nav id="navbar">
+      <header><h1>Topics</h1></header>
+      <a href="#react" class="nav-link"><h2 class="bl">React</h2></a>
+      <a href="#angular" class="nav-link"><h2 class="bl">Angular</h2></a>
+      <a href="#vue" class="nav-link"><h2 class="bl">Vue</h2></a>
+      <a href="#jquery" class="nav-link"><h2 class="bl">JQuery</h2></a>
+      <a href="#express" class="nav-link"><h2 class="bl">Express</h2></a>
+    </nav>
+      </main>
+      </body>
+      </html>
